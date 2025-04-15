@@ -15,4 +15,7 @@
   ---border-color: #000000;
 
   --sparks-color: #ff0000;
+
+  --font-main: "Inter-Variable", serif;
+  --font-accent: "PressStart2P", fantasy;
 }

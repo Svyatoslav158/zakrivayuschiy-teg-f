@@ -15,7 +15,8 @@
   min-block-size: 100dvb;
   background-color: var(--background-color, #ffffff);
   background-image: var(--background-image, none);
-  font-family: "Inter", sans-serif;
+  font-family: var(--font-main);
+  font-variation-settings: "wght" var(--font-main, 400);
 }
 
 .header {
@@ -265,8 +266,7 @@
   .button__icon {
     padding-top: 15px;
 
-
-  .post__button {
+    .post__button {
       padding: 27px 15px 16px 25px;
     }
 
