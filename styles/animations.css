@@ -59,6 +59,7 @@
 
 .like-icon.is-liked .body {
   animation: heart-zoom 0.3s ease-in 0.1s 1 alternate;
+  transform-origin: center;
 }
 
 .like-icon:hover .core {
@@ -94,8 +95,4 @@
 .like-icon.is-liked .contour {
   fill: var(--sparks-color, #ff0000);
   transition: fill 0.3s linear 0.06s;
-}
-
-.like-icon.is-liked .heart {
-  animation: heart-zoom 0.3s ease-in 0.1s 1 alternate;
 }

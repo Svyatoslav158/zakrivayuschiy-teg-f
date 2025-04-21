@@ -216,7 +216,6 @@
 .modal__window {
   display: grid;
   justify-items: center;
- 
 }
 
 .button__save {
@@ -237,6 +236,8 @@
   height: 28px;
   color: var(--background-color, #ffffff);
   mix-blend-mode: difference;
+  position: relative;
+  z-index: 2;
 }
 
 .modal {
@@ -287,8 +288,6 @@
 }
 
 @media (width > 376px) {
-
-
   .label__img {
     inset-inline-end: 26px;
     inset-block-start: 26px;
