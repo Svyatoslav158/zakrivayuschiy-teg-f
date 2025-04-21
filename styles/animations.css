@@ -57,7 +57,7 @@
   animation: sparks-fade-in 0.3s ease-in 0.3s 1 alternate;
 }
 
-.like-icon.is-liked .body{
+.like-icon.is-liked .body {
   animation: heart-zoom 0.3s ease-in 0.1s 1 alternate;
 }
 
